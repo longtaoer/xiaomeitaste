@@ -326,21 +326,21 @@ function selectOption(opt, optionsId) {
         });
         setTimeout(() => {
           const optionsId = optionsIdSeed++;
-          if (orderImg.includes('card6.png')) {
+          if (orderImg.includes('card6')) {
             visibleMessages.value.push({
               type: 'options',
               options: ['好呀，下次试试酸辣粉', '达咩，我不爱吃酸辣粉', '我更想试试牛肉面'],
               optionsId
             });
             showOptionsOneByOne(['好呀，下次试试酸辣粉', '达咩，我不爱吃酸辣粉', '我更想试试牛肉面'], optionsId);
-          } else if (orderImg.includes('card7.png')) {
+          } else if (orderImg.includes('card7')) {
             visibleMessages.value.push({
               type: 'options',
               options: ['加浓美式就是这个味，得劲儿！', '加浓美式才是真正的工作搭子', '你误会了，我更爱喝拿铁'],
               optionsId
             });
             showOptionsOneByOne(['加浓美式就是这个味，得劲儿！', '加浓美式才是真正的工作搭子', '你误会了，我更爱喝拿铁'], optionsId);
-          } else if (orderImg.includes('card8.png')) {
+          } else if (orderImg.includes('card8')) {
             visibleMessages.value.push({
               type: 'options',
               options: ['麦门永存 我爱麦麦', '疯狂星期四，我更爱吃肯德基', '其实我更爱吃塔斯汀'],
@@ -404,21 +404,21 @@ function selectOption(opt, optionsId) {
           visibleMessages.value.push({ type: 'text', text: '你是彻底放弃睡眠的夜猫子，白天靠咖啡续命，晚上靠外卖续魂！' })
           setTimeout(() => {
             const optionsId = optionsIdSeed++;
-            if (orderImg.includes('card6.png')) {
+            if (orderImg.includes('card6')) {
               visibleMessages.value.push({
                 type: 'options',
                 options: ['好呀，下次试试酸辣粉', '达咩，我不爱吃酸辣粉', '我更想试试牛肉面'],
                 optionsId
               });
               showOptionsOneByOne(['好呀，下次试试酸辣粉', '达咩，我不爱吃酸辣粉', '我更想试试牛肉面'], optionsId);
-            } else if (orderImg.includes('card7.png')) {
+            } else if (orderImg.includes('card7')) {
               visibleMessages.value.push({
                 type: 'options',
                 options: ['加浓美式就是这个味，得劲儿！', '加浓美式才是真正的工作搭子', '你误会了，我更爱喝拿铁'],
                 optionsId
               });
               showOptionsOneByOne(['加浓美式就是这个味，得劲儿！', '加浓美式才是真正的工作搭子', '你误会了，我更爱喝拿铁'], optionsId);
-            } else if (orderImg.includes('card8.png')) {
+            } else if (orderImg.includes('card8')) {
               visibleMessages.value.push({
                 type: 'options',
                 options: ['麦门永存 我爱麦麦', '疯狂星期四，我更爱吃肯德基', '其实我更爱吃塔斯汀'],
